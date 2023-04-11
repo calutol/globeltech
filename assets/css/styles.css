@@ -99,7 +99,7 @@
 	color: var(--color-negro);
 	border: 2px solid var(--bg-rosa);
 	background-color: var(--bg-blanco);
-	transform: scale(1.2);
+	transform: scale(1.1);
 }
 .btn-custom:active{
 	transform: scale(0.98);
@@ -204,7 +204,7 @@
 	color: var(--color-negro);
     border: 2px solid var(--bg-amarillo);
     background-color: var(--bg-blanco);
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .btn-video-index__a:active{
 	transform: scale(0.98);
@@ -413,7 +413,64 @@
 	color: var(--color-blanco);
 	background-color: var(--bg-azul-oscuro);
 }
-
+/* Botones laterales */
+.btn-lateral{
+	position: fixed;
+	top: 40%;
+	right: 0;
+	z-index: 999;
+	*background-color: var(--bg-azul);
+	color: var(--color-blanco);
+	border-radius: 3rem;
+	padding: 1rem;
+	transition: all .3s;
+	
+}
+.btn-lateral__box-a{
+	line-height: 48px;
+}
+.btn-lateral__box-email{
+	background-color: #dc35d8;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 6px;
+	transition: .3s;
+	border: 2px solid;
+	margin: .6rem 0;
+}
+.btn-lateral__box-email:hover{
+	transform: scale(1.1);
+}
+.iconl-mail{
+	font-size: 1.8rem;
+}
+.btn-lateral__box-wpp{
+	background-color: #25d366;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 6px;
+	transition: .3s;
+	border: 2px solid;
+	margin: .5rem 0;
+}
+.iconl-wpp{
+	font-size: 1.8rem;
+}
+.btn-lateral__box-wpp:hover{
+	transform: scale(1.1);
+}
 /* Responsive*/
 @media (max-width: 576px){
 	/* Main top */
